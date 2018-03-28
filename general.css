@@ -1,0 +1,87 @@
+
+table {
+border-collapse:separate;
+border-spacing:0pt;
+}
+caption, th, td {
+font-weight:normal;
+text-align:left;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+content:"";
+}
+blockquote, q {
+quotes:"" "";
+}
+
+
+#backgroundPopup{
+display:none;
+position:fixed;
+_position:absolute; /* hack for internet explorer 6*/
+height:100%;
+width:100%;
+top:0;
+left:0;
+background:#000;
+border:5px solid #000;
+z-index:2;
+
+}
+#popupContact{
+display:none;
+position:fixed;
+_position:absolute; /* hack for internet explorer 6*/
+width:408px;
+background:#eaf9fd;
+border:9px solid #b19f84;
+z-index:2;
+padding:12px;
+font-size:13px;
+border-radius: 5px;
+-webkit-animation-name: greenPulse;-moz-animation-name: greenPulse;-ie-animation-name: greenPulse;
+-webkit-animation-duration: 1s;
+-moz-animation-duration: 1s;
+-ie-animation-duration: 1s;
+-webkit-animation-iteration-count: infinite; -moz-animation-iteration-count: infinite; 
+-ie-animation-iteration-count: infinite; 
+}
+#popupContact h3{ 
+text-align:left;
+color:#144f60;
+font-size:20px;
+font-weight:700;
+border-bottom:1px dotted #D3D3D3;
+padding-bottom:2px;
+margin-bottom:20px;
+}
+#popupContactClose{
+font-size:14px;
+line-height:14px;
+right:6px;
+top:4px;
+position:absolute;
+color:#6fa5fd;
+font-weight:700;
+display:block;
+}
+#button{
+text-align:center;
+margin:100px;
+}
+@-webkit-keyframes greenPulse {
+from { background-color: #eaf9fd; -webkit-box-shadow:: 0 0 9px #333; }
+50% { background-color: #ffe3e3; -webkit-box-shadow:: 0 0 18px #91bd09; }
+to { background-color: #eaf9fd; -webkit-box-shadow:: 0 0 9px #333; }
+}
+
+@-moz-keyframes greenPulse {
+from { background-color: #eaf9fd; -moz-box-shadow:: 0 0 9px #333; }
+50% { background-color: #ffe3e3; -moz-box-shadow:: 0 0 18px #91bd09; }
+to { background-color: #eaf9fd; -moz-box-shadow:: 0 0 9px #333; }
+}
+@-ie-keyframes greenPulse {
+from { background-color: #eaf9fd; -ie-box-shadow:: 0 0 9px #333; }
+50% { background-color: #ffe3e3; -ie-box-shadow:: 0 0 18px #91bd09; }
+to { background-color: #eaf9fd; -ie-box-shadow:: 0 0 9px #333; }
+}

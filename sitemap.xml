@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
+<url>
+    <loc>http://www.stajyer-i.com</loc>
+    <lastmod>2012-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+
+    <priority>1.0</priority>
+</url>  
+<url>
+    <loc>http://www.stajyer-i.com/index.php</loc>
+    <lastmod>2012-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+
+    <priority>1.0</priority>
+</url>  
+<url>
+    <loc>http://www.stajyer-i.com/</loc>
+    <lastmod>2012-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+
+    <priority>1.0</priority>
+</url>  
+<url>
+    <loc>http://www.stajyer-i.com/index.php?git=sifremiunuttum</loc>
+    <lastmod>2012-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+
+    <priority>1.0</priority>
+</url>  
+<url>
+    <loc>http://www.stajyer-i.com/index.php?git=isyerlerimiz</loc>
+    <lastmod>2012-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+
+    <priority>1.0</priority>
+</url>  
+<url>
+    <loc>http://www.stajyer-i.com/index.php?git=okullarimiz</loc>
+    <lastmod>2012-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+
+    <priority>1.0</priority>
+</url>  
+<url>
+    <loc>http://www.stajyer-i.com/gizlilikpolitikasi.php</loc>
+    <lastmod>2012-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+
+    <priority>1.0</priority>
+</url>  
+</urlset>      

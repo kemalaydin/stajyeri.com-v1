@@ -1,0 +1,80 @@
+/* CSS Document */
+
+/* Sıfırlamalar */
+
+a {text-decoration:none;color:#000;}
+img {border:none;}
+:focus {outline:none;}
+html, body, #girisGenel {height: 100%;} 
+body > #girisGenel {height: auto; min-height: 100%;} 
+#girisGenel {padding-bottom: 20px;} /* altAlan yukseligi ile ayni olmali */
+
+h1,h2,h3,h4,h5,h6,p,ul,li,form,input,textarea {padding:0;margin:0;border:none;list-style-type:none;}
+ul {list-style-type:none;}
+/* Etiketler */
+body {margin:auto; text-align: center; background:url('img/bg.png') repeat-x; background-position: top-left; font:12px/19px Tahoma;}
+
+/* Giriş Genel */
+#girisGenel {width:940px;margin:0 auto !important; text-align: left; }
+.isletmelerimiz{}
+.isletmelerimiz li{display: block; margin-bottom: -15px; cursor: pointer;}
+.sayfala {margin-top: 12px;}
+.sayfala a{padding: 7px; background-color: #003847; color:#3ac8ee; border-radius: 5px; font-weight: bold; margin-right: 1px;}
+.sayfala a:hover, .sayfala a.aktif {background-color: #b4a287; color:#795e37;}
+#footer{ text-align: left; background-image: url("img/footerbg.png"); background-repeat: repeat-x;  
+position: relative; 
+margin-top: 0px; /* altAlan yuksekliginin eksi degeri */ height: 69px; 
+clear:both; 
+padding: 30px; ;}
+
+.footer{width: 940px; margin: 0 auto; color :#605442}
+.footer li{float: left; margin-right: 7px; }
+.footer li a{border-bottom : 1px solid #605442}
+.footer li a:hover{border-bottom : 1px dotted #605442}
+/* Giriş Üst */
+
+#girisUst {height:120px;}
+	#girisLogo {background:url("img/girisLogo.png");width:328px;height:51px;margin:30px 0px 15px 10px;float:left;}
+	#girisLogin {float:right;margin:15px 0px 15px 10px;}
+		.girisInput {width:172px;height:33px;background:url("img/girisInput.png");padding-left: 15px;color:#5e5e5e;font-size:11px;}
+		.girisInputsifre {width:172px;height:33px;background:url("img/girisInputsif.png");padding-left: 15px;color:#5e5e5e;font-size:11px;}
+		.girisInputsifre:focus {background:url("img/girisInput.png");color:#000;}
+		.girisInput:focus {color:#000;}
+		.girisSpan{color:#fff;font-size:11.4px;}
+/* Giriş Sol */
+#girisIcerik {margin-top:15px;}
+#girisSol {background:url("img/girisSol.png");width:559px;height:342px;float:left;padding:20px;font-size:13px;}
+#girisSag {float:right;padding:5px;}
+	.girisKutu {background:url("img/girisTur.png");width:318px;height:50px;margin-bottom:5px;}
+	.girisKutuogr {background:url("img/girisTurogr.png");width:318px;height:50px;margin-bottom:5px;}
+	.girisKutuisy {background:url("img/girisTurist.png");width:318px;height:50px;margin-bottom:5px;}
+	.girisKutuokl {background:url("img/girisTurokl.png");width:318px;height:50px;margin-bottom:5px;}
+	.girisKutu p {float:right;color:#fff;margin:15px;}
+	.girisKutuogr p {float:right;color:#fff;margin:15px;}
+	.girisKutuisy p {float:right;color:#fff;margin:15px;}
+	.girisKutuokl p {float:right;color:#fff;margin:15px;}
+	.girisKutu p:hover {cursor:pointer;}
+	.girisKutuogr p:hover {cursor:pointer;}
+	.girisKutuisy p:hover {cursor:pointer;}
+	.girisKutuokl p:hover {cursor:pointer;}
+
+	
+#sirketKutu{font-size: 14px;}	  
+#okulKutu{font-size: 14px;}	
+#ogrKutu{font-size: 14px;}	
+
+/* Giriş Sağ */
+.girisSagText {background:url("img/girisSagText.png");width:301px;height:42px;padding-left: 15px;margin-bottom:5px; /*line-height:42px;*/color:#5e5e5e;font-size:11px;} 
+.girisSagText_kucuk {background:url("img/kucuk_input.png");width:139px; float:left; height:42px;padding-left: 15px;margin-bottom:5px; /*line-height:42px;*/color:#5e5e5e;font-size:11px;} 
+.girisSagOpt {border: 1px solid #c8c8c8; background-color:#f2f2f2;width:315px;height:42px;padding-left: 15px;margin-bottom:5px; border-radius: 7px; color:#5e5e5e;font-size:11px;} 
+
+.girisSagText:focus {background:url("img/girisSagFocus.png");color:#000;text-indent:10px;}
+.girisSagText_kucuk:focus {background:url("img/kucuk_input_hover.png");color:#000;}
+.girisSagSubmit {background:url("img/girisSagSubmit.png");width:314px;height:41px;margin-bottom:5px;cursor:pointer;color:#000;}
+.girisSagSubmit:active {background:url("img/input_focus.png");}
+
+.giris_input:active{background: url("img/giris_yap_active.png");}
+#paypal{margin-top: -10px;}
+/*Orta*/
+.popUp {display:none;border:1px solid #ddd;z-index:250;padding:10px; background:#fff;border-radius:4px;}
+ .x {text-align:center;margin-top:3px;cursor:pointer;}
